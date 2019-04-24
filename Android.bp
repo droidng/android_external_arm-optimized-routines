@@ -22,7 +22,7 @@ cc_defaults {
         "-Werror",
         "-Wno-unused-parameter",
         "-Wno-unused-variable",
-        "-O2",
+        "-O3",
         "-ffp-contract=fast",
         "-fno-math-errno",
 
