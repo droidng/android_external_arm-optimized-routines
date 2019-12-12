@@ -21,6 +21,7 @@ cc_defaults {
     cflags: [
         "-Werror",
         "-Wno-unused-parameter",
+        "-Wno-unused-variable",
         "-O2",
         "-ffp-contract=fast",
         "-fno-math-errno",
