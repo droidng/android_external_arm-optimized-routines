@@ -20,7 +20,7 @@ CFLAGS += -Werror=implicit-function-declaration
 
 # Used for test case generator that is executed on the host
 HOST_CC = gcc
-HOST_CFLAGS = -std=c99 -O2
+HOST_CFLAGS = -std=c99 -O3
 HOST_CFLAGS += -Wall -Wno-unused-function
 
 # Enable debug info.
