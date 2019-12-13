@@ -23,10 +23,6 @@ HOST_CC = gcc
 HOST_CFLAGS = -std=c99 -O3
 HOST_CFLAGS += -Wall -Wno-unused-function
 
-# Enable debug info.
-HOST_CFLAGS += -g
-CFLAGS += -g
-
 # Optimize the shared libraries on aarch64 assuming they fit in 1M.
 #CFLAGS_SHARED = -fPIC -mcmodel=tiny
 
